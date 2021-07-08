@@ -1,17 +1,18 @@
-/*
-* de esta manera de importan las librerias en rust
-* a continuación utilizaremos la libreria std del core de rust
-* https://doc.rust-lang.org/std/io/index.html
-* TODO: Post sobre prelude, seria interesante hablar sobre esto.
-* con esto acabo en el titulo "Processing a Guess"
-*/
+// https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html#comparing-the-guess-to-the-secret-number
 use std::io;
+use rand::Rng;
 
 fn main() {
-    println!("Adivine el numero!");
-    println!("Por favor intente adivinar:");
-    let mut guess = String::new();
-    io::stdin().read_line(&mut guess)
-    .expect("Fallo la lectura de la variable");
-    println!("Usted ingreso: {}",guess);
+  println!("Guess the number!");
+  let secret_number = rand::thread_rng().gen_range(1..101);
+
+  println!("The secret number is {}", secret_number);
+
+  println!("Please input your guess.");
+
+  let mut guess = String::new();
+    
+  io::stdin().read_line(&mut guess)
+    .expect("Failed to read line");
+  println!("You guessed {}",guess);
 }
