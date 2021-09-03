@@ -3,7 +3,7 @@ Those are personal exercises take in of the [public book](https://doc.rust-lang.
 I'm very excited to learn all the weird features about this language programing so, Go ahead!
 # the_rust_programming_language
 The Rust Programming Language Book
-https://doc.rust-lang.org/book/ch10-00-generics.html
+https://doc.rust-lang.org/book/ch10-01-syntax.html#in-method-definitions
 ## Reference links:
 🦀 https://en.wikipedia.org/wiki/Resource_acquisition_is_initialization
 
@@ -22,3 +22,5 @@ https://doc.rust-lang.org/book/ch10-00-generics.html
 🦀 https://en.wikipedia.org/wiki/SipHash
 
 🦀 https://doc.rust-lang.org/book/ch17-02-trait-objects.html#using-trait-objects-that-allow-for-values-of-different-types
+
+🦀 https://doc.rust-lang.org/book/ch10-02-traits.html#traits-as-parameters
