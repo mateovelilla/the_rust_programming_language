@@ -24,3 +24,7 @@ https://doc.rust-lang.org/book/ch10-01-syntax.html#in-method-definitions
 🦀 https://doc.rust-lang.org/book/ch17-02-trait-objects.html#using-trait-objects-that-allow-for-values-of-different-types
 
 🦀 https://doc.rust-lang.org/book/ch10-02-traits.html#traits-as-parameters
+
+🦀 https://stackoverflow.com/questions/14189604/what-is-monomorphisation-with-context-to-c#14198060
+
+🦀  https://en.wikipedia.org/wiki/Monomorphization
