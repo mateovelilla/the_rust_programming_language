@@ -3,7 +3,7 @@ Those are personal exercises take in of the [public book](https://doc.rust-lang.
 I'm very excited to learn all the weird features about this language programing so, Go ahead!
 # the_rust_programming_language
 The Rust Programming Language Book
-https://doc.rust-lang.org/book/ch10-02-traits.html#traits-as-parameters
+https://doc.rust-lang.org/book/ch10-02-traits.html#returning-types-that-implement-traits
 ## Reference links:
 🦀 https://en.wikipedia.org/wiki/Resource_acquisition_is_initialization
 
@@ -28,3 +28,5 @@ https://doc.rust-lang.org/book/ch10-02-traits.html#traits-as-parameters
 🦀 https://stackoverflow.com/questions/14189604/what-is-monomorphisation-with-context-to-c#14198060
 
 🦀  https://en.wikipedia.org/wiki/Monomorphization
+
+🦀  https://doc.rust-lang.org/book/ch17-02-trait-objects.html#using-trait-objects-that-allow-for-values-of-different-types

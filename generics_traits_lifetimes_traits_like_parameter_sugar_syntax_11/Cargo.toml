@@ -1,0 +1,8 @@
+[package]
+name = "generics_traits_lifetimes_traits_like_parameter_sugar_syntax_11"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
