@@ -3,7 +3,7 @@ Those are personal exercises take in of the [public book](https://doc.rust-lang.
 I'm very excited to learn all the weird features about this language programing so, Go ahead!
 # the_rust_programming_language
 The Rust Programming Language Book
-https://doc.rust-lang.org/book/ch10-02-traits.html#returning-types-that-implement-traits
+https://doc.rust-lang.org/book/ch10-03-lifetime-syntax.html#validating-references-with-lifetimes
 ## Reference links:
 🦀 https://en.wikipedia.org/wiki/Resource_acquisition_is_initialization
 
