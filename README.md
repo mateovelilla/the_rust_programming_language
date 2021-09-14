@@ -3,7 +3,7 @@ Those are personal exercises take in of the [public book](https://doc.rust-lang.
 I'm very excited to learn all the weird features about this language programing so, Go ahead!
 # the_rust_programming_language
 The Rust Programming Language Book
-https://doc.rust-lang.org/book/ch10-03-lifetime-syntax.html#lifetime-annotations-in-struct-definitions
+https://doc.rust-lang.org/book/ch11-01-writing-tests.html#how-to-write-tests
 ## Reference links:
 🦀 https://en.wikipedia.org/wiki/Resource_acquisition_is_initialization
 
@@ -30,3 +30,7 @@ https://doc.rust-lang.org/book/ch10-03-lifetime-syntax.html#lifetime-annotations
 🦀  https://en.wikipedia.org/wiki/Monomorphization
 
 🦀  https://doc.rust-lang.org/book/ch17-02-trait-objects.html#using-trait-objects-that-allow-for-values-of-different-types
+
+🦀 https://doc.rust-lang.org/unstable-book/library-features/test.html
+
+🦀 [Importants rules](https://doc.rust-lang.org/book/ch10-03-lifetime-syntax.html#lifetime-elision)
