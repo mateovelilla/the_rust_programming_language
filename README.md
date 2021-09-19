@@ -3,7 +3,7 @@ Those are personal exercises take in of the [public book](https://doc.rust-lang.
 I'm very excited to learn all the weird features about this language programing so, Go ahead!
 # the_rust_programming_language
 The Rust Programming Language Book
-https://doc.rust-lang.org/book/ch11-02-running-tests.html#running-tests-in-parallel-or-consecutively
+https://doc.rust-lang.org/book/ch11-03-test-organization.html#the-tests-module-and-cfgtest
 ## Reference links:
 🦀 https://en.wikipedia.org/wiki/Resource_acquisition_is_initialization
 
@@ -36,3 +36,11 @@ https://doc.rust-lang.org/book/ch11-02-running-tests.html#running-tests-in-paral
 🦀 [Importants rules](https://doc.rust-lang.org/book/ch10-03-lifetime-syntax.html#lifetime-elision)
 
 🦀 https://doc.rust-lang.org/book/ch14-02-publishing-to-crates-io.html#documentation-comments-as-tests
+
+---
+### IMPORTANT COMMANDS
+-   `cargo test -- --test-threads=1`: create multiple threads to run the test.
+- `cargo test -- --show-output`: When Rust runs the tests only shows the outputs when the test failed, this flag enables the option to show the outputs if the tests failed or success.
+- `cargo test one_hundred`: the way to run only the test, `one_hundred` is the name of the test to execute.
+- `cargo test add`: this command executes only tests that contains `add` in the name of the function test.
+- `cargo test -- --ignored`: Runs only the tests that were ignored.
