@@ -3,7 +3,7 @@ Those are personal exercises take in of the [public book](https://doc.rust-lang.
 I'm very excited to learn all the weird features about this language programing so, Go ahead!
 # the_rust_programming_language
 The Rust Programming Language Book
-https://doc.rust-lang.org/book/ch11-03-test-organization.html#the-tests-module-and-cfgtest
+https://doc.rust-lang.org/book/ch12-00-an-io-project.html
 ## Reference links:
 🦀 https://en.wikipedia.org/wiki/Resource_acquisition_is_initialization
 
@@ -44,3 +44,4 @@ https://doc.rust-lang.org/book/ch11-03-test-organization.html#the-tests-module-a
 - `cargo test one_hundred`: the way to run only the test, `one_hundred` is the name of the test to execute.
 - `cargo test add`: this command executes only tests that contains `add` in the name of the function test.
 - `cargo test -- --ignored`: Runs only the tests that were ignored.
+- `cargo test --test integration_test`. Runs only the integration test in the `tests` folder.
