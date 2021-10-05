@@ -5,13 +5,13 @@ struct Config {
     filename: String,
 }
 impl Config {
-    fn new(args: &[String]) ->Config {
+    fn new(args: &[String]) -> Result<Config,&str> {
         if args.len() < 3 {
-            panic!("Not enough arguments");
+            return Err("not enough arguments");
         }
         let query = args[1].clone();
         let filename = args[2].clone();
-        Config { query, filename }
+        Ok(Config { query, filename })
     }
 }
 
