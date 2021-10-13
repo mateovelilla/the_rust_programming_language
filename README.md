@@ -3,7 +3,7 @@ Those are personal exercises take in of the [public book](https://doc.rust-lang.
 I'm very excited to learn all the weird features about this language programing so, Go ahead!
 # the_rust_programming_language
 The Rust Programming Language Book
-https://doc.rust-lang.org/book/ch12-05-working-with-environment-variables.html#working-with-environment-variables
+https://doc.rust-lang.org/book/ch12-06-writing-to-stderr-instead-of-stdout.html#writing-error-messages-to-standard-error-instead-of-standard-output
 ## Reference links:
 🦀 https://en.wikipedia.org/wiki/Resource_acquisition_is_initialization
 
