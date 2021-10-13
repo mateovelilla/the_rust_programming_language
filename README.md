@@ -44,4 +44,5 @@ https://doc.rust-lang.org/book/ch12-05-working-with-environment-variables.html#w
 - `cargo test one_hundred`: the way to run only the test, `one_hundred` is the name of the test to execute.
 - `cargo test add`: this command executes only tests that contains `add` in the name of the function test.
 - `cargo test -- --ignored`: Runs only the tests that were ignored.
-- `cargo test --test integration_test`. Runs only the integration test in the `tests` folder.
+- `cargo test --test integration_test`: Runs only the integration test in the `tests` folder.
+- `CASE_INSENSITIVE=1 cargo run to poem.txt`: Run Rust with environment variables for example: `CASE_INSENSITIVE=1`
