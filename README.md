@@ -3,7 +3,7 @@ Those are personal exercises take in of the [public book](https://doc.rust-lang.
 I'm very excited to learn all the weird features about this language programing so, Go ahead!
 # the_rust_programming_language
 The Rust Programming Language Book
-https://doc.rust-lang.org/book/ch12-06-writing-to-stderr-instead-of-stdout.html#writing-error-messages-to-standard-error-instead-of-standard-output
+https://doc.rust-lang.org/book/ch13-00-functional-features.html
 ## Reference links:
 🦀 https://en.wikipedia.org/wiki/Resource_acquisition_is_initialization
 
@@ -46,3 +46,4 @@ https://doc.rust-lang.org/book/ch12-06-writing-to-stderr-instead-of-stdout.html#
 - `cargo test -- --ignored`: Runs only the tests that were ignored.
 - `cargo test --test integration_test`: Runs only the integration test in the `tests` folder.
 - `CASE_INSENSITIVE=1 cargo run to poem.txt`: Run Rust with environment variables for example: `CASE_INSENSITIVE=1`
+- `cargo run > output.txt`: To redirect the standard output to a file
