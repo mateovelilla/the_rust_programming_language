@@ -1,22 +1,25 @@
 use std::thread;
 use std::time::Duration;
 
-fn simulated_expensive_calculation(intensity: u32) -> u32 {
-    println!("Calculation slowly...");
-    thread::sleep(Duration::from_secs(2));
-    intensity
-}
-
 fn generated_workout(intensity: u32, ramdom_number: u32) {
-    let expensive_result = simulated_expensive_calculation(intensity);
+    // The closure definition comes after the = to assign it to the variable expensive_closure.
+    // To define a closure, we start with a pair of vertical pipes (|), inside which we specify the parameters to the closure;
+    // this syntax was chosen because of its similarity to closure definitions in Smalltalk and Ruby. This closure has one parameter named num:
+    // if we had more than one parameter, we would separate them with commas,
+    // like |param1, param2|.
+    let expensive_closure = |num| {
+        println!("Calculation slowly...");
+        thread::sleep(Duration::from_secs(2));
+        num
+    };
     if intensity < 25 {
-        println!("Today, do {} pushups!",expensive_result);
-        println!("Next, do {} situps!",expensive_result);
+        println!("Today, do {} pushups!",expensive_closure(intensity));
+        println!("Next, do {} situps!",expensive_closure(intensity));
     } else {
         if ramdom_number == 3 {
             println!("Take a break today! Remember to stay hydrated!");
         } else {
-            println! ("Today, run for {} minutes!",expensive_result);
+            println! ("Today, run for {} minutes!",expensive_closure(intensity));
         }
     }
 }
