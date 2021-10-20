@@ -3,7 +3,7 @@ Those are personal exercises take in of the [public book](https://doc.rust-lang.
 I'm very excited to learn all the weird features about this language programing so, Go ahead!
 # the_rust_programming_language
 The Rust Programming Language Book
-https://doc.rust-lang.org/book/ch13-02-iterators.html
+https://doc.rust-lang.org/book/ch13-03-improving-our-io-project.html
 ## Reference links:
 🦀 https://en.wikipedia.org/wiki/Resource_acquisition_is_initialization
 
@@ -38,6 +38,8 @@ https://doc.rust-lang.org/book/ch13-02-iterators.html
 🦀 https://doc.rust-lang.org/book/ch14-02-publishing-to-crates-io.html#documentation-comments-as-tests
 
 🦀 https://doc.rust-lang.org/rust-by-example/fn/closures.html
+
+🦀 https://doc.rust-lang.org/std/iter/trait.Iterator.html
 
 ---
 ### IMPORTANT COMMANDS
