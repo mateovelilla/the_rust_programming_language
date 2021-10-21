@@ -50,4 +50,7 @@ https://doc.rust-lang.org/book/ch13-03-improving-our-io-project.html
 - `cargo test -- --ignored`: Runs only the tests that were ignored.
 - `cargo test --test integration_test`: Runs only the integration test in the `tests` folder.
 - `CASE_INSENSITIVE=1 cargo run to poem.txt`: Run Rust with environment variables for example: `CASE_INSENSITIVE=1`
-- `cargo run > output.txt`: To redirect the standard output to a file
+- `cargo run > output.txt`: To redirect the standard output to a file.
+
+### ADVICES:
+- `Closures and iterators are Rust features inspired by functional programming language ideas. They contribute to Rust’s capability to clearly express high-level ideas at low-level performance. The implementations of closures and iterators are such that runtime performance is not affected. This is part of Rust’s goal to strive to provide zero-cost abstractions.`
