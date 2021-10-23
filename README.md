@@ -3,7 +3,7 @@ Those are personal exercises take in of the [public book](https://doc.rust-lang.
 I'm very excited to learn all the weird features about this language programing so, Go ahead!
 # the_rust_programming_language
 The Rust Programming Language Book
-https://doc.rust-lang.org/book/ch14-02-publishing-to-crates-io.html#adding-metadata-to-a-new-crate
+https://doc.rust-lang.org/book/ch14-03-cargo-workspaces.html#creating-the-second-package-in-the-workspace
 ## Reference links:
 🦀 [Resource acquisition is initialization](https://en.wikipedia.org/wiki/Resource_acquisition_is_initialization)
 
@@ -37,6 +37,10 @@ https://doc.rust-lang.org/book/ch14-02-publishing-to-crates-io.html#adding-metad
 
 🦀 [Cargo](https://doc.rust-lang.org/cargo/)
 
+🦀 [SPDX License List](https://spdx.org/licenses/)
+
+🦀 [Semantic Versioning rules](https://semver.org/)
+
 ---
 ### IMPORTANT COMMANDS
 -   `cargo test -- --test-threads=1`: create multiple threads to run the test.
@@ -50,6 +54,8 @@ https://doc.rust-lang.org/book/ch14-02-publishing-to-crates-io.html#adding-metad
 - `cargo doc`: To generate documentation storage in the folder `target/doc` in HTML format.
 - `cargo doc --open`: To build the HTML for your current crate's documentation.
 - `cargo login abcdefghijklmnopqrstuvwxyz012345`: To login in crates
+- `cargo publish`: To publish a package in [crates.io](https://crates.io/)
+- `cargo yank --vers 1.0.1`: To delete version of any package of your crates account
 
 ### ADVICES:
 
