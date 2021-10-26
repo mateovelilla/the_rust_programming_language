@@ -3,7 +3,7 @@ Those are personal exercises take in of the [public book](https://doc.rust-lang.
 I'm very excited to learn all the weird features about this language programing so, Go ahead!
 # the_rust_programming_language
 The Rust Programming Language Book
-https://doc.rust-lang.org/book/ch14-03-cargo-workspaces.html#creating-the-second-package-in-the-workspace
+https://doc.rust-lang.org/book/ch14-04-installing-binaries.html
 ## Reference links:
 🦀 [Resource acquisition is initialization](https://en.wikipedia.org/wiki/Resource_acquisition_is_initialization)
 
@@ -56,6 +56,8 @@ https://doc.rust-lang.org/book/ch14-03-cargo-workspaces.html#creating-the-second
 - `cargo login abcdefghijklmnopqrstuvwxyz012345`: To login in crates
 - `cargo publish`: To publish a package in [crates.io](https://crates.io/)
 - `cargo yank --vers 1.0.1`: To delete version of any package of your crates account
+- `cargo run -p adder`: -p To run a package in specific.
+- `cargo test -p add-one`: To run the test of specific packages
 
 ### ADVICES:
 
@@ -76,3 +78,4 @@ https://doc.rust-lang.org/book/ch14-03-cargo-workspaces.html#creating-the-second
 ### TIPS:
 
 - `Cargo has two main profiles: the dev profile Cargo uses when you run cargo build and the release profile Cargo uses when you run cargo build --release. The dev profile is defined with good defaults for development, and the release profile has good defaults for release builds.` 
+- `If you publish the crates in the workspace to crates.io, each crate in the workspace will need to be published separately. The cargo publish command does not have an --all flag or a -p flag, so you must change to each crate’s directory and run cargo publish on each crate in the workspace to publish the crates`
