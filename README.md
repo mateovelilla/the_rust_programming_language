@@ -3,7 +3,7 @@ Those are personal exercises take in of the [public book](https://doc.rust-lang.
 I'm very excited to learn all the weird features about this language programing so, Go ahead!
 # the_rust_programming_language
 The Rust Programming Language Book
-https://doc.rust-lang.org/book/ch15-00-smart-pointers.html
+https://doc.rust-lang.org/book/ch15-02-deref.html#using-boxt-like-a-reference
 ## Reference links:
 🦀 [Resource acquisition is initialization](https://en.wikipedia.org/wiki/Resource_acquisition_is_initialization)
 
@@ -77,6 +77,11 @@ https://doc.rust-lang.org/book/ch15-00-smart-pointers.html
 
         /// Adds one to the number given.
     ```
+- When use Boxes in Rust:
+    - When you have a type whose size can’t be known at compile time and you want to use a value of that type in a context that requires an exact size.
+    - When you have a large amount of data and you want to transfer ownership but ensure the data won’t be copied when you do so.
+    - When you want to own a value and you care only that it’s a type that implements a particular trait rather than being of a specific type.
+
 ### TIPS:
 
 - `Cargo has two main profiles: the dev profile Cargo uses when you run cargo build and the release profile Cargo uses when you run cargo build --release. The dev profile is defined with good defaults for development, and the release profile has good defaults for release builds.` 
