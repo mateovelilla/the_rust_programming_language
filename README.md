@@ -3,7 +3,7 @@ Those are personal exercises take in of the [public book](https://doc.rust-lang.
 I'm very excited to learn all the weird features about this language programing so, Go ahead!
 # the_rust_programming_language
 The Rust Programming Language Book
-https://doc.rust-lang.org/book/ch15-02-deref.html#using-boxt-like-a-reference
+https://doc.rust-lang.org/book/ch15-03-drop.html#running-code-on-cleanup-with-the-drop-trait
 ## Reference links:
 🦀 [Resource acquisition is initialization](https://en.wikipedia.org/wiki/Resource_acquisition_is_initialization)
 
@@ -40,6 +40,8 @@ https://doc.rust-lang.org/book/ch15-02-deref.html#using-boxt-like-a-reference
 🦀 [SPDX License List](https://spdx.org/licenses/)
 
 🦀 [Semantic Versioning rules](https://semver.org/)
+
+🦀 [Implement dereference](https://doc.rust-lang.org/book/ch15-02-deref.html#treating-a-type-like-a-reference-by-implementing-the-deref-trait)
 
 ---
 ### IMPORTANT COMMANDS
