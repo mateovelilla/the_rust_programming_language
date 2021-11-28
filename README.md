@@ -3,7 +3,7 @@ Those are personal exercises take in of the [public book](https://doc.rust-lang.
 I'm very excited to learn all the weird features about this language programing so, Go ahead!
 # the_rust_programming_language
 The Rust Programming Language Book
-https://doc.rust-lang.org/book/ch15-05-interior-mutability.html
+https://doc.rust-lang.org/book/ch16-00-concurrency.html
 ## Reference links:
 🦀 [Resource acquisition is initialization](https://en.wikipedia.org/wiki/Resource_acquisition_is_initialization)
 
@@ -44,6 +44,10 @@ https://doc.rust-lang.org/book/ch15-05-interior-mutability.html
 🦀 [Implement dereference](https://doc.rust-lang.org/book/ch15-02-deref.html#treating-a-type-like-a-reference-by-implementing-the-deref-trait)
 
 🦀 [the Reference Counted Smart Pointer - multiple reference to a value](https://doc.rust-lang.org/book/ch15-04-rc.html)
+
+🦀 [Function Cons](https://docs.rs/im/5.0.0/im/list/fn.cons.html)
+
+🦀 [the reference counted in the doc](https://doc.rust-lang.org/std/rc/struct.Rc.html)
 
 ---
 ### IMPORTANT COMMANDS
