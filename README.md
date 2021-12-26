@@ -3,7 +3,7 @@ Those are personal exercises take in of the [public book](https://doc.rust-lang.
 I'm very excited to learn all the weird features about this language programing so, Go ahead!
 # the_rust_programming_language
 The Rust Programming Language Book
-https://doc.rust-lang.org/book/ch16-03-shared-state.html#sharing-a-mutext-between-multiple-threads
+https://doc.rust-lang.org/book/ch16-04-extensible-concurrency-sync-and-send.html#extensible-concurrency-with-the-sync-and-send-traits
 
 ## Reference links:
 🦀 [Resource acquisition is initialization](https://en.wikipedia.org/wiki/Resource_acquisition_is_initialization)
