@@ -3,7 +3,7 @@ Those are personal exercises take in of the [public book](https://doc.rust-lang.
 I'm very excited to learn all the weird features about this language programing so, Go ahead!
 # the_rust_programming_language
 The Rust Programming Language Book
-https://doc.rust-lang.org/book/ch16-04-extensible-concurrency-sync-and-send.html#extensible-concurrency-with-the-sync-and-send-traits
+https://doc.rust-lang.org/book/ch17-01-what-is-oo.html#characteristics-of-object-oriented-languages
 
 ## Reference links:
 🦀 [Resource acquisition is initialization](https://en.wikipedia.org/wiki/Resource_acquisition_is_initialization)
@@ -49,6 +49,8 @@ https://doc.rust-lang.org/book/ch16-04-extensible-concurrency-sync-and-send.html
 🦀 [Function Cons](https://docs.rs/im/5.0.0/im/list/fn.cons.html)
 
 🦀 [the reference counted in the doc](https://doc.rust-lang.org/std/rc/struct.Rc.html)
+
+🦀 [Rustnomicon](https://doc.rust-lang.org/nomicon/index.html)
 
 ---
 ### IMPORTANT COMMANDS
