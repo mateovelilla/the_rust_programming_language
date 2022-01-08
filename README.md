@@ -3,7 +3,7 @@ Those are personal exercises take in of the [public book](https://doc.rust-lang.
 I'm very excited to learn all the weird features about this language programing so, Go ahead!
 # the_rust_programming_language
 The Rust Programming Language Book
-https://doc.rust-lang.org/book/ch17-02-trait-objects.html
+https://doc.rust-lang.org/book/ch17-03-oo-design-patterns.html#implementing-an-object-oriented-design-pattern
 
 ## Reference links:
 🦀 [Resource acquisition is initialization](https://en.wikipedia.org/wiki/Resource_acquisition_is_initialization)
@@ -51,6 +51,11 @@ https://doc.rust-lang.org/book/ch17-02-trait-objects.html
 🦀 [the reference counted in the doc](https://doc.rust-lang.org/std/rc/struct.Rc.html)
 
 🦀 [Rustnomicon](https://doc.rust-lang.org/nomicon/index.html)
+
+🦀 [Safety Objects](https://github.com/rust-lang/rfcs/blob/master/text/0255-object-safety.md)
+
+🦀 [Safety Objects](https://doc.rust-lang.org/reference/items/traits.html#object-safety)
+
 
 ---
 ### IMPORTANT COMMANDS
