@@ -2,7 +2,7 @@
 Those are personal exercises take in of the [public book](https://doc.rust-lang.org/book/) to rustaceans beginners,
 I'm very excited to learn all the weird features about this language programing so, Go ahead!
 # the_rust_programming_language
-https://doc.rust-lang.org/book/ch18-00-patterns.html
+https://doc.rust-lang.org/book/ch18-02-refutability.html
 
 ## Reference links:
 🦀 [Resource acquisition is initialization](https://en.wikipedia.org/wiki/Resource_acquisition_is_initialization)
