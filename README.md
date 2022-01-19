@@ -2,7 +2,7 @@
 Those are personal exercises take in of the [public book](https://doc.rust-lang.org/book/) to rustaceans beginners,
 I'm very excited to learn all the weird features about this language programing so, Go ahead!
 # the_rust_programming_language
-https://doc.rust-lang.org/book/ch18-02-refutability.html
+https://doc.rust-lang.org/book/ch18-03-pattern-syntax.html
 
 ## Reference links:
 🦀 [Resource acquisition is initialization](https://en.wikipedia.org/wiki/Resource_acquisition_is_initialization)
@@ -54,6 +54,8 @@ https://doc.rust-lang.org/book/ch18-02-refutability.html
 🦀 [Safety Objects](https://github.com/rust-lang/rfcs/blob/master/text/0255-object-safety.md)
 
 🦀 [Safety Objects](https://doc.rust-lang.org/reference/items/traits.html#object-safety)
+
+🦀 [Refutability](https://doc.rust-lang.org/book/ch18-02-refutability.html)
 
 
 ---
