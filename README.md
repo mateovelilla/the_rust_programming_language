@@ -2,7 +2,7 @@
 Those are personal exercises take in of the [public book](https://doc.rust-lang.org/book/) to rustaceans beginners,
 I'm very excited to learn all the weird features about this language programing so, Go ahead!
 # the_rust_programming_language
-https://doc.rust-lang.org/book/ch19-01-unsafe-rust.html#unsafe-rust
+https://doc.rust-lang.org/book/ch19-03-advanced-traits.html
 
 ## Reference links:
 🦀 [Resource acquisition is initialization](https://en.wikipedia.org/wiki/Resource_acquisition_is_initialization)
@@ -58,6 +58,12 @@ https://doc.rust-lang.org/book/ch19-01-unsafe-rust.html#unsafe-rust
 🦀 [Refutability](https://doc.rust-lang.org/book/ch18-02-refutability.html)
 
 🦀 [Binding Operator](https://doc.rust-lang.org/book/ch18-03-pattern-syntax.html#-bindings)
+
+🦀 [Execution external code](https://doc.rust-lang.org/std/keyword.extern.html)
+
+🦀 [Variables and mutability](https://doc.rust-lang.org/book/ch03-01-variables-and-mutability.html#constants)
+
+🦀 [Union trait](https://doc.rust-lang.org/reference/items/unions.html)
 
 ---
 ### IMPORTANT COMMANDS
