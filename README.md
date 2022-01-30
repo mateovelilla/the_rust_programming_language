@@ -65,6 +65,12 @@ https://doc.rust-lang.org/book/ch19-04-advanced-types.html
 
 🦀 [Union trait](https://doc.rust-lang.org/reference/items/unions.html)
 
+🦀 [Macros implementation](https://doc.rust-lang.org/reference/macros-by-example.html)
+
+🦀 [Macros book(Pending to read)](https://veykril.github.io/tlborm/)
+
+🦀 [quote in rust](https://docs.rs/quote/latest/quote/)
+
 ---
 ### IMPORTANT COMMANDS
 -   `cargo test -- --test-threads=1`: create multiple threads to run the test.
